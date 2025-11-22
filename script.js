@@ -28,7 +28,6 @@ function createGrid(size){
     }
 }
 
-createGrid(16);
 
 myBtn.addEventListener("click", () => {
    newPixelValue = window.prompt("Enter the number of squares you want per side for a new grid (maximum value of 100)")
